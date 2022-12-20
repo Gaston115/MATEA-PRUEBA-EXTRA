@@ -9,6 +9,6 @@ Se crea una aplicacion de tipo Agenda, en la cual el usuario podra ingresas a tr
 => Arquitectura MVC <br>
 => MERN stack <br>
 
-#AUTOR: GASTON CABRERA#
+# AUTOR: GASTON CABRERA #
 
 
