@@ -1,0 +1,132 @@
+.containerForm {
+    width: 400px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+  .form_signup {
+    width: 340px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 5px;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.68);
+  }
+  
+  .form_signup h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .form_signup label {
+    text-align: center;
+    color: black;
+  }
+  
+  .form-inputs {
+    width: 140px;
+    height: 25px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: .2px solid black;
+    color: black;
+    outline: none;
+    background: none;
+    margin-top: 10px;
+    margin: auto;
+  }
+  
+  .form-inputs:focus {
+    border: black solid .3px;
+  }
+  
+  .photo-input {
+    color: transparent;
+    width: 120px;
+    height: 25px;
+    margin: auto;
+    background-color: black;
+  }
+  
+  #alertParrafo {
+    text-align: center !important;
+    display: block !important;
+    width: 200px;
+    margin: auto;
+    font-size: 13px;
+  }
+  
+  .button_signup {
+    display: block;
+    width: 90px;
+    height: 28px;
+    line-height: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all 0.35s;
+    margin-top: 10px;
+    margin: auto;
+    cursor: pointer;
+  }
+  
+  .button_signup span {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .button_signup:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: black;
+    transition: all 0.35s;
+    
+  }
+  
+  .button_signup:hover {
+    color: #fff;
+  }
+  
+  .button_signup:hover:after {
+    width: 100%;
+  }
+  
+  .login_link {
+    text-align: center;
+    color: white;
+  }
+  
+  .login_link :nth-child(1) {
+    text-transform: initial;
+    font-size: 16px;
+    color: rgb(59, 194, 252);
+    margin-left: 5px;
+  }
+  
+  .login_link :nth-child(1):hover {
+    color: rgb(40, 43, 45);
+  }
+  
+  .form_signup img{
+    width: 45px;
+    height: 45px;
+    margin: auto;
+  }
